@@ -1,5 +1,0 @@
-Ws2_32.lib;
-Rpcrt4.lib;
-..\..\..\..\binS7\uastack.lib;
-..\..\..\..\binS7\libeay32.lib;
-%(AdditionalDependencies)
