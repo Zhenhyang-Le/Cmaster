@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: egsheet - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/egsheet.res" /d "_DEBUG" /d "_AFXDLL" "D:\由浅入深学Visual C++\程序\Chapter10\egsheet\egsheet.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP81.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/egsheet.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\由浅入深学Visual C++\程序\Chapter10\egsheet\egsheet.cpp"
+"D:\由浅入深学Visual C++\程序\Chapter10\egsheet\egsheetDlg.cpp"
+"D:\由浅入深学Visual C++\程序\Chapter10\egsheet\PageBase.cpp"
+"D:\由浅入深学Visual C++\程序\Chapter10\egsheet\PageEdu.cpp"
+"D:\由浅入深学Visual C++\程序\Chapter10\egsheet\PageWork.cpp"
+"D:\由浅入深学Visual C++\程序\Chapter10\egsheet\SheetEmployee.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP81.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP82.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/egsheet.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\由浅入深学Visual C++\程序\Chapter10\egsheet\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP82.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP83.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/egsheet.pdb" /debug /machine:I386 /out:"Debug/egsheet.exe" /pdbtype:sept 
+".\Debug\egsheet.obj"
+".\Debug\egsheetDlg.obj"
+".\Debug\PageBase.obj"
+".\Debug\PageEdu.obj"
+".\Debug\PageWork.obj"
+".\Debug\SheetEmployee.obj"
+".\Debug\StdAfx.obj"
+".\Debug\egsheet.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP83.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+egsheet.cpp
+egsheetDlg.cpp
+PageBase.cpp
+PageEdu.cpp
+PageWork.cpp
+SheetEmployee.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+egsheet.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
