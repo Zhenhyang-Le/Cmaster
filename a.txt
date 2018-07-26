@@ -31,3 +31,4 @@ urvd4PHVMzl/WI/h2fG1r4rQcotvPFqA22igGvuReyW+ao2hWYTSFSNXbR4zMXZ/
 
 
 // add new notes
+ssh -T git@github.com
